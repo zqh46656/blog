@@ -1,0 +1,58 @@
+name: Deploy Marmite to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Marmite 0.4.2
+        env:
+          MARMITE_VERSION: 0.4.2
+        run: |
+          set -euo pipefail
+          archive="$RUNNER_TEMP/marmite.tar.gz"
+          curl --fail --silent --show-error --location --retry 3 \
+            "https://github.com/rochacbruno/marmite/releases/download/${MARMITE_VERSION}/marmite-${MARMITE_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
+            --output "$archive"
+          mkdir -p "$RUNNER_TEMP/marmite"
+          tar -xzf "$archive" -C "$RUNNER_TEMP/marmite"
+          echo "$RUNNER_TEMP/marmite" >> "$GITHUB_PATH"
+
+      - name: Build site
+        run: marmite . site --verbose
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
