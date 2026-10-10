@@ -141,7 +141,6 @@ PDF 内嵌预览依赖浏览器，部分手机浏览器需要通过链接打开�
 ## 修改外观
 
 - `marmite.yaml`：博客名称 `name`、简介 `tagline`、导航 `menu`、配色 `extra.colorscheme`。
-- `content/_hero.md`：首页介绍。
 - `custom.css`：自定义样式。
 
 ## 发布更新
