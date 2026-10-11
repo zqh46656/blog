@@ -7,3 +7,4 @@ Add them to the menu in `marmite.yaml` to make them accessible.
 
 To see all your pages take a look at [[pages]]
 
+这是我在测试自动重建
