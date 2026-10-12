@@ -42,11 +42,14 @@ tags: 笔记,技术
 标题、标签和分类。模板放在内容目录之外，避免混入首页、搜索和 RSS。
 多个标签使用英文逗号分隔（例如 `tags: 游戏,解谜,做题`），不要使用中文逗号。
 
-`stream` 指定文章分类，目前使用 `movies`、`discussions` 和 `tools`。
+`stream` 指定文章分类，目前使用 `games`、`movies`、`discussions` 和 `tools`。
 Marmite 默认会为分类文章的 URL 加上分类前缀，例如
 `stream: tools` 的 `my-post.md` 生成 `tools-my-post.html`；链接应以构建后的
 `site/marmite.json` 或 `site/urls.json` 为准。
 只有实际含有文章的分类才会生成分类列表页，添加导航前先确认该页面存在。
+游戏评测暂时使用 `content/pages/games.md` 作为空分类页。发布第一篇
+`stream: games` 的文章时，删除这个占位文件，Marmite 就会自动生成
+`games.html` 分类列表；导航地址无需修改。
 
 ## 添加页面
 

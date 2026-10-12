@@ -24,6 +24,8 @@ search_title: 搜索
 default_date_format: '%Y年%m月%d日'
 toc: true
 menu:
+- - 游戏评测
+  - games.html
 - - 影评与拉片
   - movies.html
 - - 其它讨论
@@ -41,6 +43,8 @@ menu:
 extra:
   colorscheme: minimal
 streams:
+  games:
+    display_name: "游戏评测"
   movies:
     display_name: "影评与拉片"
   discussions:
