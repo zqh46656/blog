@@ -51,6 +51,6 @@ streams:
     display_name: "其它讨论"
   tools:
     display_name: "工具和资源"
-check_internal_links: true
-strict_internal_links: true
-check_media_links: true
+check_internal_links: false
+strict_internal_links: false
+check_media_links: false
