@@ -1,5 +1,3 @@
-/* Custom CSS */
-
 /* 隐藏 JS 动态画的下划线 */
 .underline {
   display: none !important;
@@ -23,10 +21,6 @@
 
 /* 菜单项禁止换行 */
 .header-menu li {
-  white-space: nowrap;
-}
-
-.header-menu li a {
   white-space: nowrap;
 }
 

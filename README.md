@@ -38,6 +38,16 @@ tags: 笔记,技术
 
 带日期的内容会作为文章显示在首页。
 
+可复制 `examples/post.md` 到 `content/posts/` 作为写作模板，发布前修改日期、
+标题、标签和分类。模板放在内容目录之外，避免混入首页、搜索和 RSS。
+多个标签使用英文逗号分隔（例如 `tags: 游戏,解谜,做题`），不要使用中文逗号。
+
+`stream` 指定文章分类，目前使用 `movies`、`discussions` 和 `tools`。
+Marmite 默认会为分类文章的 URL 加上分类前缀，例如
+`stream: tools` 的 `my-post.md` 生成 `tools-my-post.html`；链接应以构建后的
+`site/marmite.json` 或 `site/urls.json` 为准。
+只有实际含有文章的分类才会生成分类列表页，添加导航前先确认该页面存在。
+
 ## 添加页面
 
 ```sh
@@ -153,5 +163,20 @@ git push origin main
 
 Pages 来源设为 **GitHub Actions** 后，推送到 `main` 会自动构建和发布。
 只需生成静态文件时运行 `marmite . site`，生成的 `site/` 无需提交。
+
+## 发布前检查
+
+```sh
+marmite . site --verbose
+python3 scripts/check_links.py site
+```
+
+需要 Python 3.9 或更高版本。Marmite 已启用内部链接、媒体链接的严格检查；
+脚本进一步检查生成的 HTML，包括导航、静态资源、PDF 和目录锚点，
+并验证链接保留 GitHub Pages 的 `/blog/` 路径。外部网站链接不在脚本检查范围内。
+GitHub Actions 会执行同样的检查，发现失效链接时阻止发布。
+
+备份文件 `*.bak*` 不提交，历史版本可用 Git 查看。关于页统一编辑
+`content/pages/about.md`。
 
 更多用法见 [Marmite 入门指南](https://marmite.blog/getting-started.html)。

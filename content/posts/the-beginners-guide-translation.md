@@ -1,6 +1,6 @@
 ---
 date: 2026-01-03 17:00:00
-tags: 游戏，台词，译制，配音
+tags: 游戏,台词,译制,配音
 stream: tools
 ---
 # The Beginner's Guide（新手指南）台词翻译

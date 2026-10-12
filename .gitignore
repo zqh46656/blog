@@ -1,2 +1,4 @@
 /site/
 .obsidian/
+*.bak*
+__pycache__/
