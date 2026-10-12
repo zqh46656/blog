@@ -1,6 +1,6 @@
 ---
 date: 2026-08-24 10:00:00
-tags: 语言,语系,普通话,汉语,中文
+tags: 语言,语系,普通话,汉语,中文,English
 stream: tools
 ---
 # Mandarin Chinese Phonology（普通话音系表）

@@ -88,3 +88,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+
+
+// 目录跳转：按链接文字匹配 h2
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('article a[href^="#"]').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      var linkText = this.textContent.trim();
+      var headings = document.querySelectorAll('article h2');
+      for (var i = 0; i < headings.length; i++) {
+        var h = headings[i];
+        var hClone = h.cloneNode(true);
+        hClone.querySelectorAll('a.anchor').forEach(function (a) { a.remove(); });
+        var hText = hClone.textContent.trim();
+        if (hText === linkText || hText.indexOf(linkText) === 0) {
+          e.preventDefault();
+          h.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          return;
+        }
+      }
+    });
+  });
+});
