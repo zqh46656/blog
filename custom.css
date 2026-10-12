@@ -84,3 +84,7 @@
 article img {
   cursor: zoom-in;
 }
+
+:root {
+  --pico-container-max-width: 100ch;
+}
