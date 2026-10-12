@@ -1,7 +1,4 @@
-##### Comments
-**edit `content/_comments.md` to adjust for your own site/repo**
-
-**remove** the file to disable comments
+##### 评论
 
 <script src='https://utteranc.es/client.js'
 repo='zqh46656/blog'

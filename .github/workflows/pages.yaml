@@ -35,6 +35,12 @@ jobs:
       - name: Build site
         run: marmite . site --verbose
 
+      - name: Build unified article feed
+        run: python3 scripts/build_feed.py site
+
+      - name: Check generated links and assets
+        run: python3 scripts/check_links.py site
+
       - name: Add .nojekyll
         run: touch site/.nojekyll
 

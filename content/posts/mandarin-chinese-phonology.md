@@ -1,6 +1,6 @@
 ---
 date: 2026-08-24 10:00:00
-tags: 语言，语系，普通话，汉语，中文
+tags: 语言,语系,普通话,汉语,中文
 stream: tools
 ---
 # Mandarin Chinese Phonology（普通话音系表）
@@ -19,7 +19,9 @@ There may be some minor errors in the details—apologies in advance. If you spo
 
 <div style="height: 2em;"></div>
 
-<iframe src="media/Mandarin-Chinese-Phonology.pdf" width="100%" height="600px"></iframe>
+<iframe src="media/Mandarin-Chinese-Phonology.pdf" title="普通话音系表 PDF" width="100%" height="600"></iframe>
+
+[打开或下载普通话音系表 PDF](media/Mandarin-Chinese-Phonology.pdf)
 
 <div style="height: 2em;"></div>
 
@@ -31,7 +33,7 @@ There may be some minor errors in the details—apologies in advance. If you spo
 3. 无论相应的拼音记法是否规则，每个格子的真实读音都可看作是由相应声母和韵母的读音组合而成。
 
 关于声调：
-1. 普通话的声调分为：一声（ˉ [˥]），二声（ˊ [˧˥]），三声（ˇ [˨˩˦]），四声（ˋ [˥˩]），轻声（不标调）；
+1. 普通话的声调分为：一声（ˉ \[˥\]），二声（ˊ \[˧˥\]），三声（ˇ \[˨˩˦\]），四声（ˋ \[˥˩\]），轻声（不标调）；
 2. 声调记号标在一个特定字母上，该字母的选择按照 a>o>e>i,u>ü 的优先级决定。若 i 和 u 都存在，则选择更靠后的那个；
 3. 若声调标在字母 i 上，那么 i 上面的一点略去不写。
 
