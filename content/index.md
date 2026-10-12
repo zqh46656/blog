@@ -7,7 +7,7 @@ toc: false
 
 这里是我记录文章和想法的地方。
 
-[RSS 订阅](https://zqh46656.github.io/blog/index.rss) · 将订阅链接添加到 RSS 阅读器，即可获取最新文章。
+[RSS 订阅](subscribe.html) · 一个订阅源，接收全站各分类的新文章提醒。
 
 ## 最新文章
 

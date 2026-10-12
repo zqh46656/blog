@@ -130,10 +130,13 @@ marmite . site --url http://127.0.0.1:8000 --watch --serve --bind 127.0.0.1:8000
 
 ```sh
 marmite . site --verbose
+python3 scripts/build_feed.py site
 python3 scripts/check_links.py site
 ```
 
 检查通过后仍应在浏览器确认图片、PDF、视频和外部链接可用。
+`build_feed.py` 将各分类的新文章合并到 `index.rss`，保留最新 15 篇并去重；
+全站只公开这一个订阅入口。预览的自动重建会重置 RSS，检查订阅时需重新执行此脚本。
 脚本检查内部页面、导航、静态资源、附件和目录锚点；外部网站需手动确认。
 
 ## 提交和发布
