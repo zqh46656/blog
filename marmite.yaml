@@ -1,5 +1,5 @@
-name: 真强悍 (zqh)
-tagline: 存放文章和个人想法的地方
+name: 真强悍
+tagline: 一些文章和资料
 url: https://zqh46656.github.io/blog
 https: null
 footer: <div>Powered by <a href="https://github.com/rochacbruno/marmite">Marmite</a> | <small><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY_NC-SA</a></small></div>
@@ -38,6 +38,8 @@ menu:
   - movies.html
 - - 其它讨论
   - discussions.html
+- - 工具和资源
+  - tools.html
 - - 关于本站
   - about.html
 - - 标签
@@ -56,6 +58,8 @@ streams:
     display_name: "影评与拉片"
   discussions:
     display_name: "其它讨论"
+  tools:
+    display_name: "工具和资源"
 languages: {}
 series: {}
 toc: true

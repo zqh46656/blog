@@ -24,4 +24,3 @@ Edit the files starting with `_` in the `content` folder to change the layout.
 ## Deploy your site
 
 Read more on [marmite documentation](https://marmite.blog).
-
