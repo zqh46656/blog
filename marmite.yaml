@@ -14,7 +14,11 @@ streams_title: 分类
 streams_content_title: ''
 series_title: Series
 series_content_title: Posts from '$series' series
-default_author: '真强悍 (zqh)'
+default_author: zqh
+authors:
+  zqh:
+    name: "真强悍 (zqh)"
+    avatar: "media/zqh.jpg"
 authors_title: 作者
 languages_title: Languages
 enable_search: true
@@ -50,7 +54,6 @@ menu:
   - authors.html
 extra:
   colorscheme: minimal
-authors: {}
 streams:
   games:
     display_name: "游戏评测"
