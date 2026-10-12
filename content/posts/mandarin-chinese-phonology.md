@@ -15,6 +15,10 @@ There may be some minor errors in the details—apologies in advance. If you spo
 
 <div style="height: 2em;"></div>
 
+[![Mandarin Chinese Phonology](media/Mandarin-Chinese-Phonology.svg)](media/Mandarin-Chinese-Phonology.svg)
+
+<div style="height: 2em;"></div>
+
 <iframe src="media/Mandarin-Chinese-Phonology.pdf" width="100%" height="600px"></iframe>
 
 <div style="height: 2em;"></div>
