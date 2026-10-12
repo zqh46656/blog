@@ -9,15 +9,17 @@ A couple of days ago, I suddenly felt like organizing an overview of Mandarin Ch
 
 There may be some minor errors in the details—apologies in advance. If you spot any mistakes, please feel free to point them out.
 
+<div style="height: 2em;"></div>
+
 这两天突然想根据自己的理解整理一下普通话音系，然后做着做着发现这东西或许真的可以作为非母语者学习普通话的参考，就加了个英文说明（使用了AI翻译，不过有自己检查）。  
   
 可能存在一些细节错误，还请见谅。如果发现错误欢迎指出。  
 
-<div style="height: 2em;"></div>
+
 
 [![Mandarin Chinese Phonology](media/Mandarin-Chinese-Phonology.svg)](media/Mandarin-Chinese-Phonology.svg)
 
-<div style="height: 2em;"></div>
+
 
 <iframe src="media/Mandarin-Chinese-Phonology.pdf" title="普通话音系表 PDF" width="100%" height="600"></iframe>
 
