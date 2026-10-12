@@ -88,3 +88,12 @@ article img {
 :root {
   --pico-container-max-width: 100ch;
 }
+
+
+a.toc-link {
+  color: var(--pico-primary);
+  text-decoration: none;
+}
+a.toc-link:hover {
+  text-decoration: underline;
+}

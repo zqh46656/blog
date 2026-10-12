@@ -12,15 +12,16 @@ extra:
 
 ## 本文目录
 <br>
-<a href="#第一章--自然数及其加法运算">第一章  自然数及其加法运算</a><br>
-<a href="#第二章--自然数的乘法运算">第二章  自然数的乘法运算</a><br>
-<a href="#第三章--自然数的序">第三章  自然数的序</a><br>
-<a href="#第四章--整数">第四章  整数</a><br>
-<a href="#第五章--有理数">第五章  有理数</a><br>
-<a href="#第六章--实数">第六章  实数</a><br>
-<a href="#第七章--正实数的进制表示补充内容">第七章  正实数的进制表示（补充内容）</a><br>
+<a class="toc-link">第一章  自然数及其加法运算</a><br>
+<a class="toc-link">第二章  自然数的乘法运算</a><br>
+<a class="toc-link">第三章  自然数的序</a><br>
+<a class="toc-link">第四章  整数</a><br>
+<a class="toc-link">第五章  有理数</a><br>
+<a class="toc-link">第六章  实数</a><br>
+<a class="toc-link">第七章  正实数的进制表示（补充内容）</a><br>
 
-<br><br>
+<br>
+<br>
 
 ## 前言
 <br>
