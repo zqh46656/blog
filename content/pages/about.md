@@ -1,10 +1,5 @@
-# About
+# 关于本站
 
-Hi, edit `content/pages/about.md` to change this content.
+这里是真强悍（zqh）存放文章和一些想法的地方，内容包括以游戏为主的各类评测，一些创作上的讨论，和一些其它方面的想法。
 
-Pages are content without a date. They do not appear in feeds or the index.
-Add them to the menu in `marmite.yaml` to make them accessible.
-
-To see all your pages take a look at [[pages]]
-
-这是我在测试自动重建
+希望你喜欢。

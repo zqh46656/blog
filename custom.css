@@ -1,1 +1,31 @@
 /* Custom CSS */
+
+/* 隐藏 JS 动态画的下划线 */
+.underline {
+  display: none !important;
+}
+
+/* 给当前选中的菜单项自己画一条下划线 */
+.header-menu .menu-item.active {
+  position: relative;
+  display: inline-block;
+}
+
+.header-menu .menu-item.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: var(--pico-color-azure-550);
+}
+
+/* 菜单项禁止换行 */
+.header-menu li {
+  white-space: nowrap;
+}
+
+.header-menu li a {
+  white-space: nowrap;
+}

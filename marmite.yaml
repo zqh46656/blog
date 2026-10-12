@@ -1,21 +1,21 @@
-name: 真强悍/zqh
-tagline: 真强悍/zqh 的文章和笔记
+name: 真强悍 (zqh)
+tagline: 存放文章和个人想法的地方
 url: https://zqh46656.github.io/blog
 https: null
 footer: <div>Powered by <a href="https://github.com/rochacbruno/marmite">Marmite</a> | <small><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY_NC-SA</a></small></div>
 language: zh
 pagination: 10
-pages_title: Pages
-tags_title: Tags
-tags_content_title: Posts tagged with '$tag'
-archives_title: Archive
-archives_content_title: Posts from '$year'
-streams_title: Streams
-streams_content_title: Posts from '$stream'
+pages_title: 页面
+tags_title: 标签
+tags_content_title: '带有「$tag」标签的文章'
+archives_title: 年份
+archives_content_title: '「$year」年的文章'
+streams_title: 分类
+streams_content_title: ''
 series_title: Series
 series_content_title: Posts from '$series' series
-default_author: 'zqh——123'
-authors_title: Authors
+default_author: '真强悍 (zqh)'
+authors_title: 作者
 languages_title: Languages
 enable_search: true
 search_show_matches: false
@@ -30,20 +30,32 @@ media_path: media
 card_image: ''
 banner_image: ''
 logo_image: ''
-default_date_format: '%b %e, %Y'
+default_date_format: '%Y年%m月%d日'
 menu:
-- - About
+- - 游戏评测
+  - games.html
+- - 影评与拉片
+  - movies.html
+- - 其它讨论
+  - discussions.html
+- - 关于本站
   - about.html
-- - Tags
+- - 标签
   - tags.html
-- - Archive
+- - 年份
   - archive.html
-- - Authors
+- - 作者
   - authors.html
 extra:
   colorscheme: minimal
 authors: {}
-streams: {}
+streams:
+  games:
+    display_name: "游戏评测"
+  movies:
+    display_name: "影评与拉片"
+  discussions:
+    display_name: "其它讨论"
 languages: {}
 series: {}
 toc: true
