@@ -62,25 +62,25 @@ $a+b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a+0$ 有唯�
 接下来就是研究加法运算的性质了。<br>
 <br>
 <b>命题 1.1</b>：$(a+b)+c=a+(b+c)$ .<br>
-对 $c$ 归纳：<br>
+<b>证明</b>　对 $c$ 归纳：<br>
 一方面，有 $(a+b)+0=a+b=a+(b+0)$ ；<br>
 另一方面，若 $(a+b)+c=a+(b+c)$ ，则 $(a+b)+c'=((a+b)+c)'=(a+(b+c))'=a+(b+c)'=a+(b+c')$ .<br>
 所以根据数学归纳法，有 $(a+b)+c=a+(b+c)$ . $\blacksquare$<br>
 <br>
 <b>命题 1.2</b>：$0+a=a$ .<br>
-对 $a$ 归纳：<br>
+<b>证明</b>　对 $a$ 归纳：<br>
 一方面，有 $0+0=0$；<br>
 另一方面，若 $0+a=a$ ，则 $0+a'=(0+a)'=a'$ .<br>
 所以根据数学归纳法，有 $0+a=a$ . $\blacksquare$<br>
 <br>
 <b>命题 1.3</b>：$0'+a=a'$ .<br>
-对 $a$ 归纳：<br>
+<b>证明</b>　对 $a$ 归纳：<br>
 一方面，有 $0'+0=0'$；<br>
 另一方面，若 $0'+a=a'$ ，则 $0'+a'=(0'+a)'=(a')'$ .<br>
 所以根据数学归纳法，有 $0'+a=a'$ . $\blacksquare$<br>
 <br>
 <b>命题 1.4</b>：$a+b=b+a$ .<br>
-对 $b$ 归纳，注意这里归纳证明的结论里 $a$ 被全称量词约束，即结论是【对任意自然数 $a$ 有 $a+b=b+a$】：<br>
+<b>证明</b>　对 $b$ 归纳，注意这里归纳证明的结论里 $a$ 被全称量词约束，即结论是「对任意自然数 $a$ 有 $a+b=b+a$」：<br>
 一方面，根据命题 1.2 有 $0+a=a=a+0$ ，所以对任意自然数 $a$ 有 $a+0=0+a$ ；<br>
 另一方面，若对任意自然数 $a$ 有 $a+b=b+a$ ，<br>
 则对自然数 $a$ ，又有 $a'+b=b+a'$ .<br>
@@ -89,7 +89,7 @@ $a+b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a+0$ 有唯�
 所以根据数学归纳法，对任意自然数 $a$ ，有 $a+b=b+a$ . $\blacksquare$<br>
 <br>
 <b>命题 1.5</b>：$a'+b=a+b'$ .<br>
-直接利用命题 1.4 得到 $a+b=b+a$ ，从而 $a'+b=b+a'=(b+a)'=(a+b)'=a+b'$ . $\blacksquare$<br>
+<b>证明</b>　直接利用命题 1.4 得到 $a+b=b+a$ ，从而 $a'+b=b+a'=(b+a)'=(a+b)'=a+b'$ . $\blacksquare$<br>
 <br><br>
 至此，由于命题 1.1 和命题 1.4 ，我们可以直接书写 $a+b+c$ 而无需担心歧义，也可以轻易交换运算的前后顺序。同时，两个自然数相加时，根据命题 1.5 ，后继符号可以从一个自然数转移到另一个自然数。<br>
 
@@ -108,38 +108,38 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 接下来证明一些乘法运算的性质。<br>
 <br>
 <b>命题 2.1</b>：$(a+b) \cdot c=a \cdot c+b \cdot c$ .<br>
-对 $c$ 归纳：<br>
+<b>证明</b>　对 $c$ 归纳：<br>
 一方面，有 $(a+b) \cdot 0=0=0+0=a \cdot 0+b \cdot 0$ ；<br>
 另一方面，若 $(a+b) \cdot c=a \cdot c+b \cdot c$ ，则 $(a+b) \cdot c'=(a+b) \cdot c+(a+b)=(a \cdot c+b \cdot c)+(a+b)=(a \cdot c+a)+(b \cdot c+b)=a \cdot c'+b \cdot c'$ .<br>
 所以根据数学归纳法，有 $(a+b) \cdot c=a \cdot c+b \cdot c$ . $\blacksquare$<br>
 <br>
 <b>命题 2.2</b>：$c \cdot (a+b)=c \cdot a+c \cdot b$ .<br>
-对 $b$ 归纳：<br>
+<b>证明</b>　对 $b$ 归纳：<br>
 一方面，有 $c \cdot (a+0)=c \cdot a=c \cdot a+0=c \cdot a+c \cdot 0$ ；<br>
 另一方面，若 $c \cdot (a+b)=c \cdot a+c \cdot b$ ，则 $c \cdot (a+b')=c \cdot (a+b)'=c \cdot (a+b)+c=c \cdot a+c \cdot b+c=c \cdot a+c \cdot b'$ .<br>
 所以根据数学归纳法，有 $c \cdot (a+b)=c \cdot a+c \cdot b$ . $\blacksquare$<br>
 <br>
 <b>命题 2.3</b>：$0 \cdot a=0$ .<br>
-对 $a$ 归纳：<br>
+<b>证明</b>　对 $a$ 归纳：<br>
 一方面，有 $0 \cdot 0=0$ ；<br>
 另一方面，若 $0 \cdot a=0$ ，则 $0 \cdot a'=0 \cdot a+0=0 \cdot a=0$ .<br>
 所以根据数学归纳法，有 $0 \cdot a=0$ . $\blacksquare$<br>
 <br>
 <b>命题 2.4</b>：$(a \cdot b) \cdot c=a \cdot (b \cdot c)$ .<br>
-对 $c$ 归纳：<br>
+<b>证明</b>　对 $c$ 归纳：<br>
 一方面，有 $(a \cdot b) \cdot 0=0=a \cdot 0=a \cdot (b \cdot 0)$ ；<br>
 另一方面，若 $(a \cdot b) \cdot c=a \cdot (b \cdot c)$ ，根据命题 2.2 有 $a \cdot (b \cdot c)+a \cdot b=a \cdot (b \cdot c+b)$ ，<br>
 故 $(a \cdot b) \cdot c'=(a \cdot b) \cdot c+a \cdot b=a \cdot (b \cdot c)+a \cdot b=a \cdot (b \cdot c+b)=a \cdot (b \cdot c')$ .<br>
 所以根据数学归纳法，有 $(a \cdot b) \cdot c=a \cdot (b \cdot c)$ . $\blacksquare$<br>
 <br>
 <b>命题 2.5</b>：$0' \cdot a=a$ .<br>
-对 $a$ 归纳：<br>
+<b>证明</b>　对 $a$ 归纳：<br>
 一方面，有 $0' \cdot 0=0$ ；<br>
 另一方面，若 $0' \cdot a=a$ ，则 $0' \cdot a'=0' \cdot a+0'=a+0'=(a+0)'=a'$ .<br>
 所以根据数学归纳法，有 $0' \cdot a=a$ . $\blacksquare$<br>
 <br>
 <b>命题 2.6</b>：$a \cdot b=b \cdot a$ .<br>
-对 $b$ 归纳：<br>
+<b>证明</b>　对 $b$ 归纳：<br>
 一方面，根据命题 2.3 有 $0 \cdot a=0$ ，所以 $a \cdot 0=0=0 \cdot a$ ；<br>
 另一方面，若 $a \cdot b=b \cdot a$ ，则根据命题 2.5 有 $0' \cdot a=a$ ，故 $a \cdot b'=a \cdot b+a=b \cdot a+a=b \cdot a+0' \cdot a=(b+0') \cdot a=(b+0)' \cdot a=b' \cdot a$ .<br>
 所以根据数学归纳法，有 $a \cdot b=b \cdot a$ . $\blacksquare$<br>
@@ -156,15 +156,15 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 先证明两个有些奇怪的命题。这两个命题的共性是：我们使用数学归纳法的归纳推理部分时，只需要使用 $n$ 是某个数的后继数，而无需使用归纳假设本身。<br>
 <br>
 <b>命题 3.1</b>：若 $a+b=0$ ，则 $a=0$ .<br>
-对 $b$ 归纳：<br>
+<b>证明</b>　对 $b$ 归纳：<br>
 一方面，若 $b=0$ ，则结论为「若 $a+0=0$ ，则 $a=0$ 」，显然成立；<br>
 另一方面，如果已经有「若 $a+b=0$ ，则 $a=0$ 」（这个归纳假设不需要使用），由于 $a+b'=(a+b)'\neq 0$，故「若 $a+b'=0$ ，则 $a=0$ 」直接成立。<br>
 所以根据数学归纳法可得：若 $a+b=0$ ，则 $a=0$ . $\blacksquare$<br>
 <br>
-<i>注：交换 $a,b$ 的顺序，即可和原结论共同得到：若 $a+b=0$ ，则 $a=0$ ，$b=0$ . 此后将不加说明，直接使用。</i><br>
+<i>注：交换 $a,b$ 的顺序，即可和原结论共同得到：若 $a+b=0$ ，则 $a=0$ ，$b=0$ .　此后将不加说明，直接使用。</i><br>
 <br>
 <b>命题 3.2</b>：若 $a\neq 0$ ，则 $a$ 是某个自然数的后继数.<br>
-对 $a$ 归纳：<br>
+<b>证明</b>　对 $a$ 归纳：<br>
 一方面，$0\neq 0$ 不可能成立，所以「若 $0\neq 0$ ，则 $0$ 是某个自然数的后继数」直接成立；<br>
 另一方面，如果已经有「若 $a\neq 0$ ，则 $a$ 是某个自然数的后继数」（这个归纳假设不需要使用），<br>
 由于 $a'$ 是 $a$ 的后继数，所以 $a'$ 是某个自然数的后继数，从而「若 $a'\neq 0$ ，则 $a'$ 是某个自然数的后继数」成立。<br>
@@ -173,7 +173,7 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 <i>根据以上两个命题的证明可得一个推论：若一个性质对 $0$ 成立，且对任意自然数的后继数成立，那么这个性质对任意自然数成立。</i><br>
 <br>
 <b>命题 3.3</b>：若 $a+c=b+c$ ，则 $a=b$ .<br>
-对 $c$ 归纳：<br>
+<b>证明</b>　对 $c$ 归纳：<br>
 一方面，结论对 $c=0$ 显然成立；<br>
 另一方面，如果已经有「若 $a+c=b+c$ ，则 $a=b$ 」，若 $a+c'=b+c'$ ，则 $(a+c)'=(b+c)'$ .<br>
 由于不同自然数的后继数不同，故 $a+c=b+c$ ，从而 $a=b$ .<br>
@@ -187,7 +187,7 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 然后我们证明这确实是一个偏序关系。<br>
 <br>
 <b>命题 3.4</b>：$\le$ 是一个偏序关系.<br>
-①自反性：根据 $a+0=a$ ，可得 $a\le a$ ；<br>
+<b>证明</b>　①自反性：根据 $a+0=a$ ，可得 $a\le a$ ；<br>
 <br>
 ②传递性：若 $a\le b$ ，$b\le c$ ，设 $a+u=b$ ，$b+v=c$ ，则 $a+(u+v)=(a+u)+v=b+v=c$ ，所以 $a\le c$ ；<br>
 <br>
@@ -199,10 +199,10 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 下面证明 $\le$ 还是线性序：<br>
 <br>
 <b>命题 3.5</b>：$0\le a$ .<br>
-由于 $0+a=a$ ，故 $0\le a$ . $\blacksquare$<br>
+<b>证明</b>　由于 $0+a=a$ ，故 $0\le a$ . $\blacksquare$<br>
 <br>
 <b>命题 3.6</b>：$a\le b$ 或 $b\le a$ .<br>
-对 $b$ 归纳：<br>
+<b>证明</b>　对 $b$ 归纳：<br>
 一方面，根据命题 3.5 有 $0\le a$ ，故 $a\le 0$ 或 $0\le a$ 显然成立；<br>
 另一方面，若 $a\le b$ 或 $b\le a$ ：<br>
 ——如果 $a\le b$ ，设 $a+u=b$ ，则 $a+u'=(a+u)'=b'$ ，所以 $a\le b'$ ，从而 $a\le b'$ 或 $b'\le a$ .<br>
@@ -219,11 +219,11 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 最后证明一个非常重要的性质：$\le$ 是良序。 $\blacksquare$<br>
 <br>
 <b>命题 3.7</b>：若 $a\lt b$ ，则 $a'\le b$ .<br>
-由于 $a\le b$ ，可设 $a+u=b$ ，而 $a\neq b$ ，假设 $u=0$ 则有 $b=a+u=a+0=a$ ，矛盾，故 $u\neq 0$ .<br>
+<b>证明</b>　由于 $a\le b$ ，可设 $a+u=b$ ，而 $a\neq b$ ，假设 $u=0$ 则有 $b=a+u=a+0=a$ ，矛盾，故 $u\neq 0$ .<br>
 根据命题 3.2 ，存在 $v$ 使得 $u=v'$ ，故 $b=a+u=a+v'=a'+v$ ，所以 $a'\le b$ . $\blacksquare$<br>
 <br>
 <b>命题 3.8</b>：若 $L$ 是 $\mathbb{N}$ 的非空子集，则 $L$ 存在一个最小元素.<br>
-假设结论不成立，那么存在一个 $\mathbb{N}$ 的非空子集 $L$ ，使得 $L$ 没有最小元素。<br>
+<b>证明</b>　假设结论不成立，那么存在一个 $\mathbb{N}$ 的非空子集 $L$ ，使得 $L$ 没有最小元素。<br>
 下面用数学归纳法证明：对任意自然数 $n$ ，都有对任意 $m\in L$ ，有 $n\le m$ .<br>
 对 $n$ 归纳：<br>
 ——一方面，当 $n=0$ 时，结论显然成立；<br>
@@ -243,12 +243,12 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 最后补充两个结论：<br>
 <br>
 <b>命题 3.9</b>：若自然数 $a,b$ 满足 $a\cdot b=0$ ，则 $a=0$ 或 $b=0$ .<br>
-假设 $a,b$ 都不是零，根据命题 3.2 ，可设 $a=c'$ ，$b=d'$ .<br>
+<b>证明</b>　假设 $a,b$ 都不是零，根据命题 3.2 ，可设 $a=c'$ ，$b=d'$ .<br>
 从而 $0=a\cdot b=c'\cdot d'=c'\cdot d+c'$ ，再根据命题 3.1 有 $c'=0$ ，但 $0$ 不是任何自然数的后继数，矛盾.<br>
 所以 $a=0$ 或 $b=0$ . $\blacksquare$<br>
 <br>
 <b>命题 3.10</b>：自然数 $a,b$ 不可能满足 $a\lt b$ 且 $b\lt a+0'$ .<br>
-假设 $a\lt b$ 且 $b\lt a+0'$ ，设 $a+u=b$ ，$b+v=a+0'$ ，且 $u,v$ 都不是零（否则得到小于号两边相等）。<br>
+<b>证明</b>　假设 $a\lt b$ 且 $b\lt a+0'$ ，设 $a+u=b$ ，$b+v=a+0'$ ，且 $u,v$ 都不是零（否则得到小于号两边相等）。<br>
 那么 $(a+b)+(u+v)=(a+u)+(b+v)=b+(a+0')=(a+b)+0'$ ，所以根据命题 3.3 有 $u+v=0'$ .<br>
 由于 $u,v$ 都不是零，根据命题 3.2 ，存在自然数 $x,y$ 使得 $u=x'$ ，$v=y'$ ，从而 $0'=x'+y'=x'+(y+0)'=x'+y+0'$ .<br>
 根据命题 3.3 又有 $x'+y=0$ ，从而根据命题 3.1 有 $x'=0$ ，但 $0$ 不是任何自然数的后继数，矛盾。<br>
@@ -276,20 +276,30 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 再同时定义相反数的概念：称 $\lbrack (a,b) \rbrack$ 的相反数为 $\lbrack (b,a) \rbrack$ .<br>
 <br>
 <b>命题 4.1</b>：$\mathbb{Z}$ 上的加法、乘法、序、相反数都是良定义的.<br>
-我们设 $\lbrack (a,b) \rbrack=\lbrack (a^*,b^*) \rbrack$ ，$\lbrack (c,d) \rbrack=\lbrack (c^*,d^*) \rbrack$ ，则 $a+b^*=a^*+b$ ，$c+d^*=c^*+d$ .<br>
+<b>证明</b>　我们设 $\lbrack (a,b) \rbrack=\lbrack (a^*,b^*) \rbrack$ ，$\lbrack (c,d) \rbrack=\lbrack (c^*,d^*) \rbrack$ ，则 $a+b^*=a^*+b$ ，$c+d^*=c^*+d$ .<br>
 (1) 由于 $(a+c)+(b^*+d^*)=(a+b^*)+(c+d^*)=(a^*+b)+(c^*+d)=(a^*+c^*)+(b+d)$ ，故 $\lbrack (a+c,b+d) \rbrack=\lbrack (a^*+c^*,b^*+d^*) \rbrack$ ；<br>
-(2) 由于 $(a\cdot c+b\cdot d)+(a^*\cdot d+b^*\cdot c)=(a+b^*)\cdot c+(a^*+b)\cdot d=(a^*+b)\cdot c+(a+b^*)\cdot d=(a\cdot d+b\cdot c)+(a^*\cdot c+b^*\cdot d)$<br>
+(2) 由于 $$\begin{aligned}
+(a\cdot c+b\cdot d)+(a^*\cdot d+b^*\cdot c) &= (a+b^*)\cdot c+(a^*+b)\cdot d \\
+&= (a^*+b)\cdot c+(a+b^*)\cdot d = (a\cdot d+b\cdot c)+(a^*\cdot c+b^*\cdot d)
+\end{aligned}$$<br>
 故 $\lbrack (a\cdot c+b\cdot d,a\cdot d+b\cdot c) \rbrack=\lbrack (a^*\cdot c+b^*\cdot d,a^*\cdot d+b^*\cdot c) \rbrack$ ；<br>
-由于 $(a^*\cdot c+b^*\cdot d)+(a^*\cdot d^*+b^*\cdot c^*)=a^*\cdot(c+d^*)+b^*\cdot(c^*+d)=a^*\cdot(c^*+d)+b^*\cdot(c+d^*)=(a^*\cdot d+b^*\cdot c)+(a^*\cdot c^*+b^*\cdot d^*)$<br>
+由于 $$\begin{aligned}
+(a^*\cdot c+b^*\cdot d)+(a^*\cdot d^*+b^*\cdot c^*) &= a^*\cdot(c+d^*)+b^*\cdot(c^*+d) \\
+&= a^*\cdot(c^*+d)+b^*\cdot(c+d^*) = (a^*\cdot d+b^*\cdot c)+(a^*\cdot c^*+b^*\cdot d^*)
+\end{aligned}$$<br>
 故 $\lbrack (a^*\cdot c+b^*\cdot d,a^*\cdot d+b^*\cdot c) \rbrack=\lbrack (a^*\cdot c^*+b^*\cdot d^*,a^*\cdot d^*+b^*\cdot c^*) \rbrack$ ；<br>
 所以 $\lbrack (a\cdot c+b\cdot d,a\cdot d+b\cdot c) \rbrack=\lbrack (a^*\cdot c^*+b^*\cdot d^*,a^*\cdot d^*+b^*\cdot c^*) \rbrack$ .<br>
-(3) 若 $a+d\leq b+c$ ，则可设 $a+d+u=b+c$ ，所以 $(a^*+d^*+u)+(b+c)=(a^*+b)+(c+d^*)+u=(a+b^*)+(c^*+d)+u=(a+d+u)+(b^*+c^*)=(b+c)+(b^*+c^*)=(b^*+c^*)+(b+c)$ .<br>
+(3) 若 $a+d\leq b+c$ ，则可设 $a+d+u=b+c$ ，所以
+$$\begin{aligned}
+(a^*+d^*+u)+(b+c) &= (a^*+b)+(c+d^*)+u = (a+b^*)+(c^*+d)+u \\
+&= (a+d+u)+(b^*+c^*) = (b+c)+(b^*+c^*) = (b^*+c^*)+(b+c).
+\end{aligned}$$<br>
 根据命题 3.3 ，有 $a^*+d^*+u=b^*+c^*$ ，所以 $a^*+d^*\leq b^*+c^*$ .<br>
 同理，若 $a^*+d^*\leq b^*+c^*$ ，则 $a+d\leq b+c$ .<br>
 (4) 由于 $b+a^*=a^*+b=a+b^*=b^*+a$ ，故 $\lbrack (b,a) \rbrack=\lbrack (b^*,a^*) \rbrack$ . $\blacksquare$<br>
 <br>
 <b>命题 4.2</b>：$\mathbb{N}$ 可以按 $a\to\lbrack (a,0) \rbrack$ 嵌入 $\mathbb{Z}$ ，并保持加法、乘法、序.<br>
-只需要验证：<br>
+<b>证明</b>　只需要验证：<br>
 ① 若 $\lbrack (a,0) \rbrack=\lbrack (b,0) \rbrack$ ，则 $a=b$ ；<br>
 ② $\lbrack (a,0) \rbrack+\lbrack (b,0) \rbrack=\lbrack (a+b,0) \rbrack$；<br>
 ③ $\lbrack (a,0) \rbrack\cdot\lbrack (b,0) \rbrack=\lbrack (a\cdot b,0) \rbrack$；<br>
@@ -297,33 +307,33 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 这四条都是显然的。 $\blacksquare$<br>
 <br>
 <b>命题 4.3</b>：$\mathbb{Z}$ 上的加法满足交换律、结合律；$\mathbb{Z}$ 上的乘法满足交换律、结合律、关于加法的分配律；$\mathbb{Z}$ 上的序仍是线性序.<br>
-直接利用定义并结合 $\mathbb{N}$ 上的相应性质即可。 $\blacksquare$<br>
+<b>证明</b>　直接利用定义并结合 $\mathbb{N}$ 上的相应性质即可。 $\blacksquare$<br>
 <br>
 <b>命题 4.4</b>：若整数 $p,q,r$ 满足 $p+r=q+r$ ，则 $p=q$ .<br>
-若 $\lbrack (a,b) \rbrack+\lbrack (e,f) \rbrack=\lbrack (c,d) \rbrack+\lbrack (e,f) \rbrack$ ，则 $\lbrack (a+e,b+f) \rbrack=\lbrack (c+e,d+f) \rbrack$ ，所以 $a+d+e+f=b+c+e+f$ ，从而根据命题 3.3 有 $a+d=b+c$ ，故 $\lbrack (a,b) \rbrack=\lbrack (c,d) \rbrack$ . $\blacksquare$<br>
+<b>证明</b>　若 $\lbrack (a,b) \rbrack+\lbrack (e,f) \rbrack=\lbrack (c,d) \rbrack+\lbrack (e,f) \rbrack$ ，则 $\lbrack (a+e,b+f) \rbrack=\lbrack (c+e,d+f) \rbrack$ ，所以 $a+d+e+f=b+c+e+f$ ，从而根据命题 3.3 有 $a+d=b+c$ ，故 $\lbrack (a,b) \rbrack=\lbrack (c,d) \rbrack$ . $\blacksquare$<br>
 <br>
 <b>命题 4.5</b>：设 $p$ 是整数，若 $p\gt \lbrack (0,0) \rbrack$ ，则存在非零自然数 $a$ 使得 $p=\lbrack (a,0) \rbrack$ ；若 $p\lt \lbrack (0,0) \rbrack$ ，则存在非零自然数 $a$ 使得 $p=\lbrack (0,a) \rbrack$ .<br>
-(1) 若 $\lbrack (a,b) \rbrack\gt \lbrack (0,0) \rbrack$ ，则 $a+0\neq b+0$ ，$b+0\leq a+0$ ，从而 $b\lt a$ .<br>
-这意味着存在自然数 $u$ 使得 $b+u=a=a+0$ ，故 $\lbrack (a,b) \rbrack=\lbrack (u,0) \rbrack$ .  显然 $u\neq 0$ ，否则 $a=b+u=b$ .<br>
+<b>证明</b>　(1) 若 $\lbrack (a,b) \rbrack\gt \lbrack (0,0) \rbrack$ ，则 $a+0\neq b+0$ ，$b+0\leq a+0$ ，从而 $b\lt a$ .<br>
+这意味着存在自然数 $u$ 使得 $b+u=a=a+0$ ，故 $\lbrack (a,b) \rbrack=\lbrack (u,0) \rbrack$ .　显然 $u\neq 0$ ，否则 $a=b+u=b$ .<br>
 (2) 若 $\lbrack (a,b) \rbrack\lt \lbrack (0,0) \rbrack$，则 $a+0\neq b+0$ ，$a+0\leq b+0$ ，从而 $a\lt b$ .<br>
-这意味着存在自然数 $u$ 使得 $a+u=b=b+0$ ，故 $\lbrack (a,b) \rbrack=\lbrack (0,u) \rbrack$ .  显然 $u\neq 0$ ，否则 $a=a+u=b$ . $\blacksquare$<br>
+这意味着存在自然数 $u$ 使得 $a+u=b=b+0$ ，故 $\lbrack (a,b) \rbrack=\lbrack (0,u) \rbrack$ .　显然 $u\neq 0$ ，否则 $a=a+u=b$ . $\blacksquare$<br>
 <br>
 <b>称大于 $\lbrack (0,0) \rbrack$ 的整数是正整数，小于 $\lbrack (0,0) \rbrack$ 的整数是负整数，而 $\lbrack (0,0) \rbrack$ 作为整数亦称为零.</b><br>
 <br>
 <b>命题 4.6</b>：正整数、负整数、零彼此不相等.<br>
-若非零自然数 $a$ 满足 $\lbrack (a,0) \rbrack=\lbrack (0,0) \rbrack$ ，则 $a+0=0+0$ ，从而 $a=0$ ，矛盾；<br>
+<b>证明</b>　若非零自然数 $a$ 满足 $\lbrack (a,0) \rbrack=\lbrack (0,0) \rbrack$ ，则 $a+0=0+0$ ，从而 $a=0$ ，矛盾；<br>
 若非零自然数 $a$ 满足 $\lbrack (0,a) \rbrack=\lbrack (0,0) \rbrack$ ，则 $0+0=a+0$ ，从而 $a=0$ ，矛盾；<br>
 若非零自然数 $a,b$ 满足 $\lbrack (a,0) \rbrack=\lbrack (0,b) \rbrack$ ，则 $a+b=0+0=0$ ，从而根据命题 3.1 有 $a=b=0$ ，矛盾； $\blacksquare$<br>
 <br>
 <b>命题 4.7</b>：每个整数和自己相反数的和为零.<br>
-$\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (a+b,a+b) \rbrack=\lbrack (0,0) \rbrack$ . $\blacksquare$<br>
+<b>证明</b>　$\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (a+b,a+b) \rbrack=\lbrack (0,0) \rbrack$ . $\blacksquare$<br>
 <br>
 将整数 $p$ 的相反数记为 $-p$ ，那么可以定义 $\mathbb{Z}$ 上的减法：$p-q=p+(-q)$ .<br>
 也就是说，减去一个数，其实就是加上这个数的相反数。<br>
 于是我们马上就有「移项」：若 $p+q=r$ ，则 $p=p+q+(-q)=r+(-q)=r-q$ .<br>
 <br>
 <b>命题 4.8</b>：若两整数 $p,q$ 的乘积 $p\cdot q=\lbrack (0,0) \rbrack$ ，则 $p=\lbrack (0,0) \rbrack$ 或 $q=\lbrack (0,0) \rbrack$ .<br>
-假设结论不成立，若 $p,q$ 都是正整数 ，则可设 $p=\lbrack (a,0) \rbrack$ ，$q=\lbrack (b,0) \rbrack$ ，这里 $a,b$ 是非零自然数.<br>
+<b>证明</b>　假设结论不成立，若 $p,q$ 都是正整数 ，则可设 $p=\lbrack (a,0) \rbrack$ ，$q=\lbrack (b,0) \rbrack$ ，这里 $a,b$ 是非零自然数.<br>
 那么 $\lbrack (0,0) \rbrack=p\cdot q=\lbrack (a,0) \rbrack\cdot\lbrack (b,0) \rbrack=\lbrack (a\cdot b,0) \rbrack$ ，从而 $a\cdot b+0=0+0$ ，即 $a\cdot b=0$ ，根据命题 3.9 ，这得到 $a=0$ 或 $b=0$ ，矛盾.<br>
 <br>
 若 $p,q$ 都是负整数 ，则可设 $p=\lbrack (0,a) \rbrack$ ，$q=\lbrack (0,b) \rbrack$ ，这里 $a,b$ 是非零自然数.<br>
@@ -345,45 +355,46 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 <b>命题 4.11</b>：对整数 $p,q,r$，若 $r$ 是正整数，则 $p\cdot r\geq q\cdot r$ 当且仅当 $p\geq q$ ，$p\cdot r\gt q\cdot r$ 当且仅当 $p\gt q$ ；若 $r$ 是负整数，则 $p\cdot r\geq q\cdot r$ 当且仅当 $p\leq q$ ，$p\cdot r\gt q\cdot r$ 当且仅当 $p\lt q$ .<br>
 也比较简单。 $\blacksquare$<br>
 <br>
-<i>该结论可以推出：若 $r\neq 0$ ，$p\cdot r=q\cdot r$ ，则 $p=q$ .  这也将作为命题 4.11 的一部分被后文引用。</i><br>
+<i>该结论可以推出：若 $r\neq 0$ ，$p\cdot r=q\cdot r$ ，则 $p=q$ .　这也将作为命题 4.11 的一部分被后文引用。</i><br>
 <br>
 <b>命题 4.12</b>：设 $p$ 是整数，那么不存在整数 $q$ ，使得 $p\lt q$ ，且 $q\lt p+\lbrack (0',0) \rbrack$ .<br>
-假设 $p\lt q$ ，$q\lt p+\lbrack (0',0) \rbrack$ .<br>
+<b>证明</b>　假设 $p\lt q$ ，$q\lt p+\lbrack (0',0) \rbrack$ .<br>
 设 $p=\lbrack (a,b) \rbrack$ ，$q=\lbrack (c,d) \rbrack$ ，则 $\lbrack (a,b) \rbrack\lt \lbrack (c,d) \rbrack$ ，$\lbrack (c,d) \rbrack\lt \lbrack (a,b) \rbrack+\lbrack (0',0) \rbrack=\lbrack (a+0',b) \rbrack$ .<br>
 从而 $a+d\lt b+c$ ，$b+c\lt a+d+0'$ ，这和命题 3.10 矛盾。<br>
 所以命题 4.12 得证。 $\blacksquare$<br>
 <br>
 <b>命题 4.13</b>：设 $p$ 是整数 ，则 $-(-p)=p$ .<br>
-设 $p=\lbrack (a,b) \rbrack$ ，则 $-p=\lbrack (b,a) \rbrack$ ，所以 $-(-p)=-\lbrack (b,a) \rbrack=\lbrack (a,b) \rbrack=p$ . $\blacksquare$<br>
+<b>证明</b>　设 $p=\lbrack (a,b) \rbrack$ ，则 $-p=\lbrack (b,a) \rbrack$ ，所以 $-(-p)=-\lbrack (b,a) \rbrack=\lbrack (a,b) \rbrack=p$ . $\blacksquare$<br>
 <br>
 <b>命题 4.14</b>：设 $p,q$ 是整数 ，则 $(-p)\cdot q=-(p\cdot q)=p\cdot(-q)$ ，$(-p)\cdot(-q)=p\cdot q$ .<br>
-由于 $p\cdot q+(-p)\cdot q=(p+(-p))\cdot q=0\cdot q=0$ ，故 $(-p)\cdot q=-(p\cdot q)$ ；<br>
+<b>证明</b>　由于 $p\cdot q+(-p)\cdot q=(p+(-p))\cdot q=0\cdot q=0$ ，故 $(-p)\cdot q=-(p\cdot q)$ ；<br>
 由于 $p\cdot(-q)+p\cdot q=p\cdot((-q)+q)=p\cdot 0=0$ ，故 $p\cdot(-q)=-(p\cdot q)$ .<br>
 从而 $(-p)\cdot(-q)=-(p\cdot(-q))=-(-(p\cdot q))=p\cdot q$ ，最后一步使用命题 4.13 . $\blacksquare$<br>
 <br>
 <b>命题 4.15</b>：设 $p$ 是整数 ，则 $p\cdot\lbrack (0',0) \rbrack=p$ ，$p\cdot\lbrack (0,0') \rbrack=-p$ .<br>
-设 $p=\lbrack (a,b) \rbrack$ ，则根据整数乘法定义就有 $\lbrack (a,b) \rbrack\cdot\lbrack (0',0) \rbrack=\lbrack (a\cdot 0',b\cdot 0') \rbrack$ ，$\lbrack (a,b) \rbrack\cdot\lbrack (0,0') \rbrack=\lbrack (b\cdot 0',a\cdot 0') \rbrack$ .<br>
+<b>证明</b>　设 $p=\lbrack (a,b) \rbrack$ ，则根据整数乘法定义就有 $\lbrack (a,b) \rbrack\cdot\lbrack (0',0) \rbrack=\lbrack (a\cdot 0',b\cdot 0') \rbrack$ ，$\lbrack (a,b) \rbrack\cdot\lbrack (0,0') \rbrack=\lbrack (b\cdot 0',a\cdot 0') \rbrack$ .<br>
 结合命题 2.5 可知 $\lbrack (a,b) \rbrack\cdot\lbrack (0',0) \rbrack=\lbrack (a\cdot 0',b\cdot 0') \rbrack=\lbrack (a,b) \rbrack$ ，$\lbrack (a,b) \rbrack\cdot\lbrack (0,0') \rbrack=\lbrack (b\cdot 0',a\cdot 0') \rbrack=\lbrack (b,a) \rbrack=-\lbrack (a,b) \rbrack$ . $\blacksquare$<br>
 <br>
 <b>命题 4.16</b>：若 $\mathbb{Z}$ 的一个非空子集有上界，则必有最大数；若 $\mathbb{Z}$ 的一个非空子集有下界，则必有最小数.<br>
-直接根据命题 3.8 即可得到。 $\blacksquare$<br>
+<b>证明</b>　直接根据命题 3.8 即可得到。 $\blacksquare$<br>
 <br>
 目前的结论已经能够推出 $\mathbb{Z}$ 是一个整环，此时就可以引入各种整环上的概念，以及很多初等数论知识。<br>
 <br>
 <b>我们只提出一个性质：整除。</b><br>
 <br>
 若整数 $p,q$ 满足：存在整数 $r$ 使得 $p\cdot r=q$ ，则称 $p$ <b>整除</b> $q$ ，可记为 $p|q$ ，此时称 $q$ 是 $p$ 的<b>倍数</b>，$p$ 是 $q$ 的<b>约数或因数</b>。<br>
-对整数 $p$ ，设 $\operatorname{abs}(p)$ 为 $p$ 的<b>绝对值</b>：若 $p\geq\lbrack (0,0) \rbrack$ ，则规定 $\operatorname{abs}(p)=p$ ；否则规定 $\operatorname{abs}(p)=-p$ .  显然，$\operatorname{abs}(p)\geq\lbrack (0,0) \rbrack$ .<br>
+对整数 $p$ ，设 $\operatorname{abs}(p)$ 为 $p$ 的<b>绝对值</b>：若 $p\geq\lbrack (0,0) \rbrack$ ，则规定 $\operatorname{abs}(p)=p$ ；否则规定 $\operatorname{abs}(p)=-p$ .　显然，$\operatorname{abs}(p)\geq\lbrack (0,0) \rbrack$ .<br>
+整数 $p$ 的绝对值也记作 $|p|$ ，即 $|p|=\operatorname{abs}(p)$ .<br>
 <br>
 <b>命题 4.17</b>：对整数 $p,q$，四个结论 $p|q$ ，$(-p)|q$ ，$p|(-q)$ ，$(-p)|(-q)$ 两两等价.<br>
 显然成立。 $\blacksquare$<br>
 <br>
 <b>命题 4.18</b>：若整数 $p,q$ 都不为 $\lbrack (0,0) \rbrack$ ，且 $p|q$ ，则 $\operatorname{abs}(p)\leq\operatorname{abs}(q)$ .<br>
-根据命题 4.17 ，不妨设 $p,q$ 都是正整数.<br>
+<b>证明</b>　根据命题 4.17 ，不妨设 $p,q$ 都是正整数.<br>
 由于 $p|q$ ，可设 $p\cdot r=q$ ，根据命题 4.9 有 $r\gt \lbrack (0,0) \rbrack$ ，所以 $r\geq\lbrack (0,0) \rbrack+\lbrack (0',0) \rbrack=\lbrack (0',0) \rbrack$ ，故根据命题 4.11 和 4.15 有 $q=p\cdot r\geq p\cdot\lbrack (0',0) \rbrack=p$ . $\blacksquare$<br>
 <br>
 <b>命题 4.19</b>：若整数 $p,q$ 不全为 $\lbrack (0,0) \rbrack$ ，则存在一个最大的正整数 $d$ ，它同时整除 $p$ 和 $q$ ，这称为 $p$ 和 $q$ 的最大公因数，记为 $\gcd(p,q)$ .<br>
-首先，若整数 $p,q$ 不全为 $\lbrack (0,0) \rbrack$ ，则所有整除 $p$ 和 $q$ 的正整数包括 $\lbrack (0',0) \rbrack$ .<br>
+<b>证明</b>　首先，若整数 $p,q$ 不全为 $\lbrack (0,0) \rbrack$ ，则所有整除 $p$ 和 $q$ 的正整数包括 $\lbrack (0',0) \rbrack$ .<br>
 另一方面，根据命题 4.18 以及 $p,q$ 不全为 $\lbrack (0,0) \rbrack$ 可知：所有整除 $p$ 和 $q$ 的正整数一定不超过 $\operatorname{abs}(p)$ , $\operatorname{abs}(q)$ 的较大值。<br>
 从而根据命题 4.16 ，$p,q$ 存在一个最大的公因数。 $\blacksquare$<br>
 <br>
@@ -393,7 +404,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 比较显然，略过。 $\blacksquare$<br>
 <br>
 <b>命题 4.21</b>：设 $p,q$ 是整数，且 $\gcd(p,q)=\lbrack (0',0) \rbrack$ ，则存在整数 $r,s$ ，使得 $p\cdot r+q\cdot s=\lbrack (0',0) \rbrack$ .<br>
-如果 $q=\lbrack (0,0) \rbrack$ ，则根据 $\gcd(p,\lbrack (0,0) \rbrack)=\lbrack (0',0) \rbrack$ ，根据命题 4.20 ，有 $\operatorname{abs}(p)=\lbrack (0',0) \rbrack$ ，故根据 $p\cdot p=p\cdot p+q\cdot\lbrack (0,0) \rbrack=\lbrack (0',0) \rbrack$ 可知结论成立；<br>
+<b>证明</b>　如果 $q=\lbrack (0,0) \rbrack$ ，则根据 $\gcd(p,\lbrack (0,0) \rbrack)=\lbrack (0',0) \rbrack$ ，根据命题 4.20 ，有 $\operatorname{abs}(p)=\lbrack (0',0) \rbrack$ ，故根据 $p\cdot p=p\cdot p+q\cdot\lbrack (0,0) \rbrack=\lbrack (0',0) \rbrack$ 可知结论成立；<br>
 如果 $p=\lbrack (0,0) \rbrack$，同理可证结论成立；<br>
 <br>
 下面考虑 $p,q$ 都是整数的情形。根据命题 4.14 ，又可以不妨设 $p,q$ 都是正整数：<br>
@@ -414,7 +425,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 再根据 $d\cdot\lbrack (0',0) \rbrack+d\cdot\lbrack (0,0) \rbrack=d=\lbrack (0',0) \rbrack$ 可得 $(d,d)\in T$ ，就可以反推得到 $(p,q)\in T$ ，结论得证。 $\blacksquare$<br>
 <br>
 <b>命题 4.22</b>：设 $p,q,r$ 是整数，且 $\gcd(p,q)=\lbrack (0',0) \rbrack$ ，同时 $p|(q\cdot r)$ ，则 $p|r$ .<br>
-根据命题 4.21 ，存在整数 $u,v$ ，使得 $p\cdot u+q\cdot v=\lbrack (0',0) \rbrack$ ，所以 $p\cdot(u\cdot r)+(q\cdot r)\cdot v=\lbrack (0',0) \rbrack\cdot r=r$ .<br>
+<b>证明</b>　根据命题 4.21 ，存在整数 $u,v$ ，使得 $p\cdot u+q\cdot v=\lbrack (0',0) \rbrack$ ，所以 $p\cdot(u\cdot r)+(q\cdot r)\cdot v=\lbrack (0',0) \rbrack\cdot r=r$ .<br>
 而 $p|(q\cdot r)$ ，所以 $p|(p\cdot(u\cdot r)+(q\cdot r)\cdot v)$ ，从而 $p|r$ ，结论得证。 $\blacksquare$<br>
 
 <br><br>
@@ -428,7 +439,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 下面证明这确实是等价关系。<br>
 ①反身性：由于 $p\cdot q=p\cdot q$ ，故 $(p,q)\sim(p,q)$ ；<br>
 ②对称性：若 $(p,q)\sim(r,s)$ ，则 $p\cdot s=q\cdot r$ ，所以 $q\cdot r=p\cdot s$ ，故 $(r,s)\sim(p,q)$ .<br>
-③传递性：若 $(p,q)\sim(r,s)$ ，$(r,s)\sim(u,v)$ ，则 $p\cdot s=q\cdot r$ ，$r\cdot v=s\cdot u$，故 $(p\cdot v)\cdot(r\cdot s)=(p\cdot s)\cdot(r\cdot v)=(q\cdot r)\cdot(s\cdot u)=(q\cdot u)\cdot(r\cdot s)$ .  若 $r\neq\lbrack (0,0) \rbrack$ ，则根据命题 4.11 有 $p\cdot v=q\cdot u$ ，所以 $(p,q)\sim(u,v)$ ；若 $r=\lbrack (0,0) \rbrack$ ，则 $p\cdot s=s\cdot u=\lbrack (0,0) \rbrack$ ，但 $s\neq\lbrack (0,0) \rbrack$ ，所以 $p=u=\lbrack (0,0) \rbrack$ ，从而 $p\cdot v=\lbrack (0,0) \rbrack=q\cdot u$ ，所以 $(p,q)\sim(u,v)$ .<br>
+③传递性：若 $(p,q)\sim(r,s)$ ，$(r,s)\sim(u,v)$ ，则 $p\cdot s=q\cdot r$ ，$r\cdot v=s\cdot u$，故 $(p\cdot v)\cdot(r\cdot s)=(p\cdot s)\cdot(r\cdot v)=(q\cdot r)\cdot(s\cdot u)=(q\cdot u)\cdot(r\cdot s)$ .　若 $r\neq\lbrack (0,0) \rbrack$ ，则根据命题 4.11 有 $p\cdot v=q\cdot u$ ，所以 $(p,q)\sim(u,v)$ ；若 $r=\lbrack (0,0) \rbrack$ ，则 $p\cdot s=s\cdot u=\lbrack (0,0) \rbrack$ ，但 $s\neq\lbrack (0,0) \rbrack$ ，所以 $p=u=\lbrack (0,0) \rbrack$ ，从而 $p\cdot v=\lbrack (0,0) \rbrack=q\cdot u$ ，所以 $(p,q)\sim(u,v)$ .<br>
 <br>
 在这样的等价关系下，全体等价类构成的集合定义为有理数集 $\mathbb{Q}$ ，每个等价类是一个有理数。将 $(p,q)$ 所在的等价类记为 $\left\langle \frac{p}{q} \right\rangle$ .<br>
 下面将整数上的加法、乘法和序迁移过来。<br>
@@ -466,7 +477,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 <b>④ $\left\langle \frac{0'}{0'} \right\rangle\gt\left\langle \frac{0}{0'} \right\rangle$ .</b><br>
 <br>
 <b>命题 5.6</b>：对任意有理数 $x$ ，存在唯一的整数组 $p,q$ ，满足 $q\gt\lbrack (0,0) \rbrack$ ，$x=\left\langle \frac{p}{q} \right\rangle$ ，且 $\gcd(p,q)=\lbrack (0',0) \rbrack$ .<br>
-我们可以考虑 $\mathbb{Z}$ 的如下子集：$L=\{ q \mid q\gt\lbrack (0,0) \rbrack \text{ ，且存在整数 } p \text{ ，使得 } x=\left\langle \frac{p}{q} \right\rangle \}$ .<br>
+<b>证明</b>　我们可以考虑 $\mathbb{Z}$ 的如下子集：$L=\{ q \mid q\gt\lbrack (0,0) \rbrack \text{ ，且存在整数 } p \text{ ，使得 } x=\left\langle \frac{p}{q} \right\rangle \}$ .<br>
 <br>
 设 $x=\left\langle \frac{r}{s} \right\rangle=\left\langle \frac{-r}{-s} \right\rangle$ ，则 $s$ 和 $-s$ 中必有一个正整数，从而 $L$ 非空.<br>
 由于 $\lbrack (0,0) \rbrack$ 显然是 $L$ 的下界，故根据命题 4.16 ，集合 $L$ 一定存在最小元素，记最小元素为 $q$ .<br>
@@ -495,7 +506,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 证明应该也不难。 $\blacksquare$<br>
 <br>
 <b>命题 5.9</b>：对任意有理数 $x,y$ ，若 $x\lt y$ ，则存在有理数 $z$ ，使得 $x\lt z\lt y$ .<br>
-(1) 若 $x\lt\left\langle \frac{0}{0'} \right\rangle\lt y$，可直接取 $z=\left\langle \frac{0'}{0'} \right\rangle$ .<br>
+<b>证明</b>　(1) 若 $x\lt\left\langle \frac{0}{0'} \right\rangle\lt y$，可直接取 $z=\left\langle \frac{0'}{0'} \right\rangle$ .<br>
 (2) 若 $\left\langle \frac{0}{0'} \right\rangle\leq x\lt y$，设 $x=\left\langle \frac{p}{q} \right\rangle$ ，$y=\left\langle \frac{r}{s} \right\rangle$ ，且确保 $q,s$ 都是正整数，则根据命题 5.8 ，可知 $p$ 是非负整数，$r$ 是正整数。<br>
 取 $z=\left\langle \frac{p+r}{q+s} \right\rangle$ ，则根据 $q+s\gt q+\lbrack (0,0) \rbrack=q\gt\lbrack (0,0) \rbrack$ 可知 $q+s$ 是正整数。<br>
 根据命题 5.7 ，可由 $x\lt y$ 得到 $p\cdot s\lt r\cdot q$ .<br>
@@ -520,11 +531,11 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 <br><br>
 最后我们准备定义实数。作如下准备：<br>
 <br>
-1. 由于自然数可以嵌入整数，整数可以嵌入有理数，故我们直接视它们有子集关系。以后的书写不再那么形式化；<br>
+1.　由于自然数可以嵌入整数，整数可以嵌入有理数，故我们直接视它们有子集关系。以后的书写不再那么形式化；<br>
 <br>
-2. 我们把 $0'$ 记为 $1$ ，$0''$ 记为 $2$ ，以此类推。不过它们只代表有限次后继数，和进制表示暂时无关；<br>
+2.　我们把 $0'$ 记为 $1$ ，$0''$ 记为 $2$ ，以此类推。不过它们只代表有限次后继数，和进制表示暂时无关；<br>
 <br>
-3. 若 $p,q$ 是有理数，$q$ 非零，那么除法运算写作 $p/q$ ，除以一个数就是乘以这个数的倒数。亦可以直接理解为：$p/q=p\cdot q^{-1}$ .<br>
+3.　若 $p,q$ 是有理数，$q$ 非零，那么除法运算写作 $p/q$ ，除以一个数就是乘以这个数的倒数。亦可以直接理解为：$p/q=p\cdot q^{-1}$ .<br>
 
 <br><br>
 
@@ -558,7 +569,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 (6) 规定 $\lbrack\{p_\cdot\}\rbrack$ 的绝对值 $\operatorname{abs}(\lbrack\{p_\cdot\}\rbrack)$ 为 $\lbrack\{\operatorname{abs}(p_\cdot)\}\rbrack$ .<br>
 <br>
 <b>命题 6.1</b>：实数集 $\mathbb{R}$ 上的加法、乘法、相反数、倒数、序均良定义.<br>
-证明主要需要验证：<br>
+<b>证明</b>　证明主要需要验证：<br>
 ①两个有理数基本列的和、乘积、绝对值都是有理数基本列；<br>
 ②恒为某个固定有理数的有理序列一定是有理数基本列；<br>
 ③每个有理数基本列的子列都和自身等价；<br>
@@ -598,7 +609,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 然后是几个较为好用的性质：<br>
 <br>
 <b>命题 6.7</b>：若 $x\in\mathbb{R}$ ，则存在 $n\in\mathbb{N}^+$ ，使得 $n\gt x$ .<br>
-若 $x\leq 0$ ，令 $n=1$ 即可；<br>
+<b>证明</b>　若 $x\leq 0$ ，令 $n=1$ 即可；<br>
 若 $x\gt 0$ ，设 $x$ 对应有理数基本列 $\{p_\cdot\}$ ，根据 $x$ 是基本列，可知存在自然数 $N$ ，使得 $m,n\gt N$ 时有 $\operatorname{abs}(p_m-p_n)\lt 1$ .<br>
 这意味着当 $n\gt N$ 时有 $\operatorname{abs}(p_n-p_{N+1})\lt 1$ ，所以 $p_n\lt p_{N+1}+1$.<br>
 从而 $\lbrack\{p_\cdot\}\rbrack\leq\lbrack\{p_{N+1}+1\}\rbrack$ ，故 $p_{N+1}+1\geq x$ ，这表明有理数 $q=p_{N+1}+2$ 满足 $q\gt x$ .<br>
@@ -606,12 +617,12 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 从而 $r$ 是正整数，且 $s\geq 1$ ，这表明正整数 $r\geq r/s=q\gt x$ . $\blacksquare$<br>
 <br>
 <b>命题 6.8</b>：$\lbrack\{1/n\}\rbrack=\lbrack\{0\}\rbrack$ .<br>
-对任意 $c\in\mathbb{Q}^+$ ，根据命题 6.7 ，存在自然数 $N$ ，使得 $N\gt 1/c$ .<br>
+<b>证明</b>　对任意 $c\in\mathbb{Q}^+$ ，根据命题 6.7 ，存在自然数 $N$ ，使得 $N\gt 1/c$ .<br>
 所以对自然数 $n\gt N$ ，都有 $n\gt 1/c$ ，故 $1/n\lt c$ ，故 $\operatorname{abs}(1/n-0)=1/n\lt c$ .<br>
 这就证明了 $\lbrack\{1/n\}\rbrack=\lbrack\{0\}\rbrack$ . $\blacksquare$<br>
 <br>
 <b>命题 6.9</b>：若 $x,y\in\mathbb{R}$ ，$x\lt y$ ，则存在 $q\in\mathbb{Q}$ ，使得 $x\lt q\lt y$ .<br>
-由于 $y-x\gt 0$ ，故根据命题 6.7 ，存在正整数 $n$ ，使得 $n\gt 1/(y-x)$ .<br>
+<b>证明</b>　由于 $y-x\gt 0$ ，故根据命题 6.7 ，存在正整数 $n$ ，使得 $n\gt 1/(y-x)$ .<br>
 这表明 $1/n\lt y-x$ .<br>
 根据命题 6.7 ，存在正整数 $m,m^*$ ，使得 $m\gt n\cdot x$ ，$m^*\gt -n\cdot x$ .<br>
 设 $L = \{ k\in\mathbb{Z} \mid k/n\leq x \}$ ，则根据 $(-m^*)/n=-(m^*/n)\lt-((-n\cdot x)/n)=x$ ，可知 $-m^*\in L$ .<br>
@@ -621,7 +632,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 这就得到有理数 $q=(p+1)/n$ 满足条件. $\blacksquare$<br>
 <br>
 <b>命题 6.10</b>：若 $x\in\mathbb{R}$ ，$\{q_\cdot\}$ 为有理数基本列，则：<br>
-① 若 $x\lt\lbrack\{q_\cdot\}\rbrack$ ，则存在自然数 $N$ ，使得对任意自然数 $n\gt N$ ，有 $x\lt q_n$ ；<br>
+<b>证明</b>　① 若 $x\lt\lbrack\{q_\cdot\}\rbrack$ ，则存在自然数 $N$ ，使得对任意自然数 $n\gt N$ ，有 $x\lt q_n$ ；<br>
 ② 若 $x\gt\lbrack\{q_\cdot\}\rbrack$ ，则存在自然数 $N$ ，使得对任意自然数 $n\gt N$ ，有 $x\gt q_n$ .<br>
 这里只证明①，因为②和①同理。<br>
 <br>
@@ -640,7 +651,7 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 最后，我们来证明实数集 $\mathbb{R}$ 最重要的一条性质——柯西收敛准则：<br>
 <br>
 <b>命题 6.11</b>：若映射 $r : \mathbb{N}\to\mathbb{R}$ 满足：对任意 $c\in\mathbb{Q}^+$ ，都存在自然数 $N$ ，使得对任意自然数 $m,n\gt N$ 都有 $-c\lt r_m-r_n\lt c$ .<br>
-那么存在实数 $\eta$ ，使得对任意 $c\in\mathbb{Q}^+$ ，都存在自然数 $N$ ，使得对任意自然数 $n\gt N$ 都有 $\eta-c\lt r_n\lt\eta+c$ .<br>
+<b>证明</b>　那么存在实数 $\eta$ ，使得对任意 $c\in\mathbb{Q}^+$ ，都存在自然数 $N$ ，使得对任意自然数 $n\gt N$ 都有 $\eta-c\lt r_n\lt\eta+c$ .<br>
 我们定义有理数序列 $F : \mathbb{N}\to\mathbb{Q}$ ：根据命题 6.9 ，在 $r_n-1/n$ 和 $r_n+1/n$ 之间取有理数 $F_n$ . （这里 $F_n$ 是某个集合的最大值，所以可以对应递归函数，应该不涉及逻辑问题）<br>
 <br>
 然后，对任意 $c\in\mathbb{Q}^+$ ，存在自然数 $N_1$ ，使得对任意自然数 $m,n\gt N_1$ 有 $-c/2\lt r_m-r_n\lt c/2$ .<br>
@@ -695,28 +706,28 @@ $\lbrack (a,b) \rbrack+\lbrack (b,a) \rbrack=\lbrack (a+b,b+a) \rbrack=\lbrack (
 如此归纳定义即可唯一确定一切整数 $n$ 下的 $A^n$ 的值。<br>
 <br>
 <b>命题 7.1</b>：对正实数 $A$ 以及整数 $m,n$ ，有 $A^{m+n}=(A^m)\cdot(A^n)$ .<br>
-直接使用数学归纳法，对 $n$ 归纳即可。 $\blacksquare$<br>
+<b>证明</b>　直接使用数学归纳法，对 $n$ 归纳即可。 $\blacksquare$<br>
 <br>
 <b>命题 7.2</b>：对正实数 $A$ 以及整数 $n$ ，有 $A^n\gt 0$ .<br>
-对 $n$ 归纳即可，不过需要两个方向的归纳。 $\blacksquare$<br>
+<b>证明</b>　对 $n$ 归纳即可，不过需要两个方向的归纳。 $\blacksquare$<br>
 <br>
 <i>命题 7.1 和 7.2 是非常符合直觉的常识，因此后面可能不加引用直接默认。</i><br>
 <br>
 <b>命题 7.3</b>：对任意正实数 $b\geq 2$ 及非负整数 $n$ ，均有 $b^n\gt n$ .<br>
-对 $n$ 归纳：<br>
+<b>证明</b>　对 $n$ 归纳：<br>
 一方面，对 $n=0$ 有 $b^0=1\gt 0=n$ ；<br>
 另一方面，假设 $b^n\gt n$ ，则根据命题 3.7 有 $b^n\geq n+1$ ，所以 $b^{n+1}=b\cdot(b^n)\geq b\cdot(n+1)\geq 2\cdot(n+1)=n+n+2\geq n+2\gt n+1$ .<br>
 所以根据数学归纳法，有 $b^n\gt n$ 成立。 $\blacksquare$<br>
 <br>
 <b>命题 7.4</b>：对任意正实数 $b\gt 1$ 及整数 $n$ ，均有 $b^n\lt b^{n+1}$ .<br>
-$b^{n+1}=b\cdot(b^n)\geq 2\cdot(b^n)\gt b^n$ . $\blacksquare$<br>
+<b>证明</b>　$b^{n+1}=b\cdot(b^n)\geq 2\cdot(b^n)\gt b^n$ . $\blacksquare$<br>
 <br>
 <b>命题 7.5</b>：对任意正实数 $b\geq 2$ 及正实数 $c$ ，存在整数 $m,n$ ，使得 $b^m\gt c$ ，$b^n\lt c$ .<br>
-根据命题 6.7 ，存在正整数 $m,k$ ，使得 $m\gt c$ ，$k\gt 1/c$ .<br>
+<b>证明</b>　根据命题 6.7 ，存在正整数 $m,k$ ，使得 $m\gt c$ ，$k\gt 1/c$ .<br>
 取 $n=-k$ ，再结合命题 7.3 ，就有 $b^m\gt m\gt c$ ，$b^{-n}=b^k\gt k\gt 1/c$ ，从而 $b^n\lt c$ . $\blacksquare$<br>
 <br>
 <b>命题 7.6</b>：对正实数 $b\geq 2$ 以及正实数 $r$ ，存在唯一的整数 $n$ ，使得 $b^n\leq r\lt b^{n+1}$ .<br>
-设 $L = \{ k\in\mathbb{Z} \mid b^k\leq r \}$ ，根据命题 7.4 和 7.5 可知：<br>
+<b>证明</b>　设 $L = \{ k\in\mathbb{Z} \mid b^k\leq r \}$ ，根据命题 7.4 和 7.5 可知：<br>
 ① 集合 $L$ 非空，集合 $\mathbb{Z}\setminus L$ 非空；<br>
 ② 对任意 $x\in L$ 以及整数 $y\lt x$ ，有 $y\in L$ ；<br>
 ③ 对任意 $x\in\mathbb{Z}\setminus L$ 以及整数 $y\gt x$ ，有 $y\in\mathbb{Z}\setminus L$ .<br>
@@ -757,14 +768,14 @@ $k(N-m-1) \leq ( r - F_{b,r}(N)\cdot b^N - F_{b,r}(N-1)\cdot b^{N-1} - \dots - F
 如此归纳，就对每个整数 $n$ 都定义了 $F_{b,r}(n)$ 的值，于是这就得到了正实数 $r$ 的 $b$ 进制表示。<br>
 <br>
 定义完毕后，我们自然需要提出一些非常容易想到的问题：<br>
-1. 不同的实数是否会具备同样的进制表示？<br>
-2. 进制表示有什么含义？<br>
-3. 哪些 $\mathbb{Z}$ 到 $\{0,1,\dots,b-1\}$ 的映射才是某个正实数的进制表示？<br>
+1.　不同的实数是否会具备同样的进制表示？<br>
+2.　进制表示有什么含义？<br>
+3.　哪些 $\mathbb{Z}$ 到 $\{0,1,\dots,b-1\}$ 的映射才是某个正实数的进制表示？<br>
 <br>
 我们将用三个命题分别回答这三个问题。<br>
 <br>
 <b>命题 7.7</b>：给定正整数 $b\geq 2$ ，若正实数 $r,s$ 满足对任意整数 $n$ 都有 $F_{b,r}(n)=F_{b,s}(n)$ ，则 $r=s$ .<br>
-根据进制表示的定义方式，存在整数 $N$ 同时满足 $b^N \leq r \lt b^{N+1}$ ，$b^N \leq s \lt b^{N+1}$ .<br>
+<b>证明</b>　根据进制表示的定义方式，存在整数 $N$ 同时满足 $b^N \leq r \lt b^{N+1}$ ，$b^N \leq s \lt b^{N+1}$ .<br>
 再根据进制表示的归纳定义过程，对任意正整数 $m$ ，均有<br>
 $0 \leq r - F_{b,r}(N)\cdot b^N - F_{b,r}(N-1)\cdot b^{N-1} - \dots - F_{b,r}(N-m)\cdot b^{N-m} \lt b^{N-m}$ .<br>
 $0 \leq s - F_{b,s}(N)\cdot b^N - F_{b,s}(N-1)\cdot b^{N-1} - \dots - F_{b,s}(N-m)\cdot b^{N-m} \lt b^{N-m}$ .<br>
@@ -776,14 +787,14 @@ $0 \leq s - F_{b,s}(N)\cdot b^N - F_{b,s}(N-1)\cdot b^{N-1} - \dots - F_{b,s}(N-
 所以必有 $r=s$ . $\blacksquare$<br>
 <br>
 <b>命题 7.8</b>：给定正整数 $b\geq 2$ ，对正实数 $r$ ，根据命题 7.6，存在唯一的整数 $N$ 满足 $b^N\leq r\lt b^{N+1}$，若进一步定义数列 $p(n)=F_{b,r}(N)\cdot b^N+F_{b,r}(N-1)\cdot b^{N-1}+\dots+F_{b,r}(N-n)\cdot b^{N-n}$ ，则数列 $p(n)$ 的极限为 $r$ .<br>
-根据进制表示的归纳定义部分，有<br>
+<b>证明</b>　根据进制表示的归纳定义部分，有<br>
 $0 \leq r - F_{b,r}(N)\cdot b^N - F_{b,r}(N-1)\cdot b^{N-1} - \dots - F_{b,r}(N-n)\cdot b^{N-n} \lt b^{N-n}$ .<br>
 这意味着 $0 \leq r - p(n) \lt b^{N-n}$ ，从而 $p(n) \leq r$ .<br>
 由于 $p(n)$ 显然单调递增，故 $p(n)$ 存在极限.<br>
 再对不等式 $0 \leq r - p(n) \lt b^{N-n}$ 的每一部分同时取极限，就得到 $p(n)$ 的极限为 $r$ . $\blacksquare$<br>
 <br>
 <b>命题 7.9</b>：给定正整数 $b\geq 2$ ，对映射 $T : \mathbb{Z} \to \{ 0 , 1 , 2 , \dots , b-1 \}$ ，「存在正实数 $r$ 使得 $F_{b,r}(n)=T(n)$ 」 的充分必要条件是下面两个条件都成立：<br>
-① 存在整数 $N$ ，使得 $T(N)\neq 0$ ，且对任意整数 $n\gt N$ 均有 $T(n)=0$ ；<br>
+<b>证明</b>　① 存在整数 $N$ ，使得 $T(N)\neq 0$ ，且对任意整数 $n\gt N$ 均有 $T(n)=0$ ；<br>
 ② 对任意整数 $K$ ，都存在整数 $n\lt K$ ，使得 $T(n)\neq b-1$ .<br>
 （1）首先证明必要性：若存在正实数 $r$ 使得 $F_{b,r}(n)=T(n)$ ，根据进制表示的定义方式即可知道条件 ① 满足，设整数 $N$ 满足 $b^N\leq r\lt b^{N+1}$ .<br>
 然后验证条件 ② ：假设存在整数 $K$ ，使得 $n\lt K$ 时均有 $T(n)=b-1$ .<br>
@@ -816,14 +827,23 @@ $T(N)\cdot b^N + T(N-1)\cdot b^{N-1} + \dots + (T(N-k)+1)\cdot b^{N-k}$<br>
 然后定义数列 $p(n) = T(N)\cdot b^N + T(N-1)\cdot b^{N-1} + \dots + T(N-n)\cdot b^{N-n}$ .<br>
 <br>
 由于 $p(n)\geq T(N)\cdot b^N\geq T(N)$ ，且条件 ② 确保我们可以取正整数 $k$ ，使得 $T(N-k)\lt b-1$ ，即可得到当 $n\gt k$ 时有<br>
-$p(n) = T(N)\cdot b^N + T(N-1)\cdot b^{N-1} + \dots + T(N-n)\cdot b^{N-n} \leq T(N)\cdot b^N + (b-1)\cdot b^{N-1} + \dots + (b-1)\cdot b^{N-n} - b^{N-k} \lt T(N)\cdot b^N + b^N - b^{N-k}$ .<br>
+$$\begin{aligned}
+p(n) &= T(N)\cdot b^N + T(N-1)\cdot b^{N-1} + \dots + T(N-n)\cdot b^{N-n} \\
+&\leq T(N)\cdot b^N + (b-1)\cdot b^{N-1} + \dots + (b-1)\cdot b^{N-n} - b^{N-k} \lt T(N)\cdot b^N + b^N - b^{N-k}.
+\end{aligned}$$<br>
 故 $p(n)$ 一定存在极限 $r$ ，且 $T(N) \leq r \leq T(N)\cdot b^N + b^N - b^{N-k}$ ，故 $T(N) \leq r \lt (T(N)+1)\cdot b^N$ .<br>
 <br>
 一方面，根据 $0 \lt T(N) \leq b-1$ ，可以得到 $b^N \leq r \lt b^{N+1}$ .<br>
 另一方面，对非负整数 $n$ ，条件 ② 确保我们可以取正整数 $k$ ，使得 $T(N-n-k)\lt b-1$ .<br>
-从而对正整数 $m\gt n+k$ ，有<br>
-$p(m) - T(N)\cdot b^N - T(N-1)\cdot b^{N-1} - \dots - T(N-n)\cdot b^{N-n} = T(N-n-1)\cdot b^{N-n-1} + T(N-n-2)\cdot b^{N-n-2} + \dots + T(N-n-m)\cdot b^{N-n-m}$<br>
-从而 $0 \leq p(m) - T(N)\cdot b^N - T(N-1)\cdot b^{N-1} - \dots - T(N-n)\cdot b^{N-n} \leq (b-1)\cdot(b^{N-n-1} + b^{N-n-2} + \dots + b^{N-n-m}) - b^{N-n-k} \lt b^{N-n} - b^{N-n-k}$ .<br>
+故对正整数 $m\gt n+k$ ，有<br>
+$$\begin{aligned}
+&p(m) - T(N)\cdot b^N - T(N-1)\cdot b^{N-1} - \dots - T(N-n)\cdot b^{N-n} \\
+&= T(N-n-1)\cdot b^{N-n-1} + T(N-n-2)\cdot b^{N-n-2} + \dots + T(N-n-m)\cdot b^{N-n-m}
+\end{aligned}$$<br>
+从而$$\begin{aligned}
+0 &\leq p(m) - T(N)\cdot b^N - T(N-1)\cdot b^{N-1} - \dots - T(N-n)\cdot b^{N-n} \\
+&\leq (b-1)\cdot(b^{N-n-1} + b^{N-n-2} + \dots + b^{N-n-m}) - b^{N-n-k} \lt b^{N-n} - b^{N-n-k}
+\end{aligned}$$<br>
 两边让 $m$ 趋近于无穷，同时取极限，就能得到 $0 \leq r - T(N)\cdot b^N - T(N-1)\cdot b^{N-1} - \dots - T(N-n)\cdot b^{N-n} \leq b^{N-n} - b^{N-n-k} \lt b^{N-n}$ .<br>
 <br>
 于是这就得到下面的结论。<br>
@@ -854,6 +874,8 @@ $p(m) - T(N)\cdot b^N - T(N-1)\cdot b^{N-1} - \dots - T(N-n)\cdot b^{N-n} = T(N-
 这样就得到了完整的进制表示和体系。<br>
 <br>
 本文完。<br>
+
+
 
 
 
