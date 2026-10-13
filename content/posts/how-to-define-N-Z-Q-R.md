@@ -574,7 +574,7 @@ $$\begin{aligned}
 (1) $\lbrack\{p_\cdot\}\rbrack+\lbrack\{q_\cdot\}\rbrack=\lbrack\{p_\cdot+q_\cdot\}\rbrack$ ；<br>
 (2) $\lbrack\{p_\cdot\}\rbrack$ 的相反数为 $\lbrack\{-p_\cdot\}\rbrack$ ；<br>
 (3) $\lbrack\{p_\cdot\}\rbrack\cdot\lbrack\{q_\cdot\}\rbrack=\lbrack\{p_\cdot\cdot q_\cdot\}\rbrack$ ；<br>
-(4) 若 $\lbrack\{p_\cdot\}\rbrack\neq\lbrack\{0\}\rbrack$（ $\lbrack\{0\}\rbrack$ 代表恒为 $0$ 的有理序列），则记 $k$ 是最小的，满足 $n\geq k$ 时都有 $p_n\neq 0$ 的自然数 $k$ ，则规定 $\lbrack\{p_\cdot\}\rbrack$ 的倒数为 $\lbrack\{q_\cdot\}\rbrack$ ，其中 $q_n=1/p_{n+k'}$ ；<br>
+(4) 若 $\lbrack\{p_\cdot\}\rbrack\neq\lbrack\{0\}\rbrack$（ $\lbrack\{0\}\rbrack$ 代表恒为 $0$ 的有理序列），则记 $k$ 是最小的，满足 $n\geq k$ 时都有 $p_n\neq 0$ 的自然数 $k$ ，此时规定 $\lbrack\{p_\cdot\}\rbrack$ 的倒数为 $\lbrack\{q_\cdot\}\rbrack$ ，其中 $q_n=1/p_{n+k'}$ ；<br>
 (5) 若对任意 $c\in\mathbb{Q}^+$ ，都存在自然数 $N$ ，使得 $n\gt N$ 时有 $p_n\leq q_n+c$ ，则规定 $\lbrack\{p_\cdot\}\rbrack\leq\lbrack\{q_\cdot\}\rbrack$ ；<br>
 (6) 规定 $\lbrack\{p_\cdot\}\rbrack$ 的绝对值 $\operatorname{abs}(\lbrack\{p_\cdot\}\rbrack)$ 为 $\lbrack\{\operatorname{abs}(p_\cdot)\}\rbrack$ .<br>
 <br>
@@ -642,10 +642,9 @@ $$\begin{aligned}
 这就得到有理数 $q=(p+1)/n$ 满足条件. $\blacksquare$<br>
 <br>
 <b>命题 6.10</b>：若 $x\in\mathbb{R}$ ，$\{q_\cdot\}$ 为有理数基本列，则：<br>
-<b>证明</b>　① 若 $x\lt\lbrack\{q_\cdot\}\rbrack$ ，则存在自然数 $N$ ，使得对任意自然数 $n\gt N$ ，有 $x\lt q_n$ ；<br>
+① 若 $x\lt\lbrack\{q_\cdot\}\rbrack$ ，则存在自然数 $N$ ，使得对任意自然数 $n\gt N$ ，有 $x\lt q_n$ ；<br>
 ② 若 $x\gt\lbrack\{q_\cdot\}\rbrack$ ，则存在自然数 $N$ ，使得对任意自然数 $n\gt N$ ，有 $x\gt q_n$ .<br>
-这里只证明①，因为②和①同理。<br>
-<br>
+<b>证明</b>　这里只证明①，因为②和①同理。<br>
 设 $x\lt\lbrack\{q_\cdot\}\rbrack$ ，根据命题 6.9 ，取 $x'\in\mathbb{Q}$ ，使得 $x\lt x'\lt\lbrack\{q_\cdot\}\rbrack$<br>
 再设 $x'=\lbrack\{p_\cdot\}\rbrack$ ，则对任意 $c\in\mathbb{Q}^+$ ：<br>
 由 $\lbrack\{p_\cdot\}\rbrack=x'\lt\lbrack\{q_\cdot\}\rbrack$ 可知，存在自然数 $N_1$ ，使得对任意自然数 $n\gt N_1$ ，有 $p_n\leq q_n+c/3$ .<br>
@@ -661,8 +660,8 @@ $$\begin{aligned}
 最后，我们来证明实数集 $\mathbb{R}$ 最重要的一条性质——柯西收敛准则：<br>
 <br>
 <b>命题 6.11</b>：若映射 $r : \mathbb{N}\to\mathbb{R}$ 满足：对任意 $c\in\mathbb{Q}^+$ ，都存在自然数 $N$ ，使得对任意自然数 $m,n\gt N$ 都有 $-c\lt r_m-r_n\lt c$ .<br>
-<b>证明</b>　那么存在实数 $\eta$ ，使得对任意 $c\in\mathbb{Q}^+$ ，都存在自然数 $N$ ，使得对任意自然数 $n\gt N$ 都有 $\eta-c\lt r_n\lt\eta+c$ .<br>
-我们定义有理数序列 $F : \mathbb{N}\to\mathbb{Q}$ ：根据命题 6.9 ，在 $r_n-1/n$ 和 $r_n+1/n$ 之间取有理数 $F_n$ . （这里 $F_n$ 是某个集合的最大值，所以可以对应递归函数，应该不涉及逻辑问题）<br>
+那么存在实数 $\eta$ ，使得对任意 $c\in\mathbb{Q}^+$ ，都存在自然数 $N$ ，使得对任意自然数 $n\gt N$ 都有 $\eta-c\lt r_n\lt\eta+c$ .<br>
+<b>证明</b>　我们定义有理数序列 $F : \mathbb{N}\to\mathbb{Q}$ ：根据命题 6.9 ，在 $r_n-1/n$ 和 $r_n+1/n$ 之间取有理数 $F_n$ . （这里 $F_n$ 是某个集合的最大值，所以可以对应递归函数，应该不涉及逻辑问题）<br>
 <br>
 然后，对任意 $c\in\mathbb{Q}^+$ ，存在自然数 $N_1$ ，使得对任意自然数 $m,n\gt N_1$ 有 $-c/2\lt r_m-r_n\lt c/2$ .<br>
 也存在自然数 $N_2$ ，使得 $N_2\gt 1/(4\cdot c)$ .<br>
