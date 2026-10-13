@@ -220,13 +220,13 @@ $a \cdot b$ 结果的唯一性可以通过对 $b$ 归纳得到。首先 $a \cdot
 ————如果 $v=0$ ，则 $a=b+v=b+0=b$ ，所以 $a+0'=b+0'=(b+0)'=b'$ ，所以 $a\le b'$ ，从而 $a\le b'$ 或 $b'\le a$ .<br>
 ————如果 $v\neq 0$ ，则根据命题 3.2 ，存在自然数 $w$ 使得 $v=w'$ ，故 $a=b+v=b+w'=b'+w$，所以 $b'\le a$ ，从而 $a\le b'$ 或 $b'\le a$ .<br>
 这就得到了 $a\le b'$ 或 $b'\le a$ .<br>
-所以根据数学归纳法，有 $a\le b$ 或 $b\le a$ .<br>
+所以根据数学归纳法，有 $a\le b$ 或 $b\le a$ . $\blacksquare$<br>
 <br>
 至此我们证明了 $\le$ 是线性序。之后，$a\ge b$ 表示 $b\le a$ ；$a\lt b$ 表示 $a\le b$ 且 $a\neq b$ ，$a\gt b$ 表示 $b\lt a$ .<br>
 <br>
 而对于线性序 $\le$ ，对任意 $a,b$ ，三个结论 $a\lt b$ ，$a=b$ ，$a\gt b$ 总是恰有一个成立。<br>
 <br>
-最后证明一个非常重要的性质：$\le$ 是良序。 $\blacksquare$<br>
+最后证明一个非常重要的性质：$\le$ 是良序。<br>
 <br>
 <b>命题 3.7</b>：若 $a\lt b$ ，则 $a'\le b$ .<br>
 <b>证明</b>　由于 $a\le b$ ，可设 $a+u=b$ ，而 $a\neq b$ ，假设 $u=0$ 则有 $b=a+u=a+0=a$ ，矛盾，故 $u\neq 0$ .<br>
