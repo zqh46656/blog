@@ -417,7 +417,7 @@ $$\begin{aligned}
 <b>证明</b>　如果 $q=\lbrack (0,0) \rbrack$ ，则根据 $\gcd(p,\lbrack (0,0) \rbrack)=\lbrack (0',0) \rbrack$ ，根据命题 4.20 ，有 $\operatorname{abs}(p)=\lbrack (0',0) \rbrack$ ，故根据 $p\cdot p=p\cdot p+q\cdot\lbrack (0,0) \rbrack=\lbrack (0',0) \rbrack$ 可知结论成立；<br>
 如果 $p=\lbrack (0,0) \rbrack$，同理可证结论成立；<br>
 <br>
-下面考虑 $p,q$ 都是整数的情形。根据命题 4.14 ，又可以不妨设 $p,q$ 都是正整数：<br>
+下面考虑 $p,q$ 都是非零整数的情形。根据命题 4.14 ，又可以不妨设 $p,q$ 都是正整数：<br>
 对无序正整数对 $\{a,b\}$ ，若 $a\lt b$ ，则可以将 $\{a,b\}$ 改为 $\{a,b-a\}$ ；若 $a\gt b$ ，则可以将 $\{a,b\}$ 改为 $\{a-b,b\}$ .<br>
 每当一个不相等的无序正整数对进行一次这样的操作后，两个数中的较大一个一定变得更小。<br>
 将所有经过有限次操作得到的数对的较大数构成的集合记为 $L$ ，则根据命题 4.16 ，集合 $L$ 存在最小元素 $d$ .<br>
