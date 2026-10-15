@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     applyTransform();
   }
 
-  document.querySelectorAll('article img').forEach(function (img) {
+  document.querySelectorAll('article img:not(.friend-avatar)').forEach(function (img) {
     img.style.cursor = 'zoom-in';
     img.addEventListener('click', function (e) {
       e.preventDefault();

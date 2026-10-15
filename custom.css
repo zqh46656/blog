@@ -81,7 +81,7 @@
   user-select: none;
 }
 
-article img {
+article img:not(.friend-avatar) {
   cursor: zoom-in;
 }
 
@@ -96,4 +96,78 @@ a.toc-link {
 }
 a.toc-link:hover {
   text-decoration: underline;
+}
+
+.content-html:has(.friends-list) {
+  border-bottom: none;
+}
+
+.friends-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 1rem;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.friends-list > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.friend-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid var(--pico-table-border-color);
+  border-radius: var(--pico-border-radius);
+  background: var(--pico-card-background-color);
+  color: var(--pico-color);
+  text-decoration: none;
+}
+
+.friend-card:hover {
+  border-color: var(--pico-primary);
+  text-decoration: none;
+}
+
+.friend-card:focus-visible {
+  outline: 2px solid var(--pico-primary);
+  outline-offset: 3px;
+}
+
+.friend-avatar {
+  display: grid;
+  place-items: center;
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: var(--pico-code-background-color);
+  color: var(--pico-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.friend-info {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.friend-name {
+  display: block;
+  color: var(--pico-primary);
+  font-weight: 600;
+}
+
+.friend-description {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--pico-color);
+  opacity: 0.8;
+  font-size: 0.9rem;
 }

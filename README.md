@@ -19,6 +19,8 @@
 | 新文章、已有文章 | `content/posts/文章名.md` |
 | 图片、视频、PDF、其他附件 | `content/media/文章名/文件名` |
 | 关于本站 | `content/pages/about.md` |
+| 友链名单、简介 | `content/pages/friends.md` |
+| 友链头像 | `content/media/friends/` |
 | 其他独立页面（不带日期） | `content/pages/页面名.md` |
 | 首页欢迎语、最新文章列表 | `content/index.md` |
 | 博客名称、导航、分类、配色 | `marmite.yaml` |
@@ -27,6 +29,18 @@
 
 `site/` 是自动生成的结果，不在里面写文章或修改样式，也不用提交。
 文件名建议使用小写英文、数字和连字符，如 `my-post.md`；文件名和引用的大小写必须一致。
+
+## 维护友链
+
+编辑 `content/pages/friends.md`，在 `friends-list` 中复制一个 `<li>` 卡片，
+修改博客网址、名称和简介，按希望显示的顺序排列。链接在当前标签页打开。
+
+头像保存到 `content/media/friends/`，页面使用 `media/friends/文件名` 引用。
+没有合适头像时，将卡片的 `<img>` 替换为名称首字母，例如：
+
+```html
+<span class="friend-avatar" aria-hidden="true">M</span>
+```
 
 ## 写文章
 
