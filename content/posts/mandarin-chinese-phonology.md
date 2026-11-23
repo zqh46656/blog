@@ -17,9 +17,10 @@ There may be some minor errors in the details—apologies in advance. If you spo
 
 
 
-[![Mandarin Chinese Phonology](media/Mandarin-Chinese-Phonology.svg)](media/Mandarin-Chinese-Phonology.svg)
-
-
+<figure style="margin: 0 0 4em 0; padding: 0;">
+  <a href="media/Mandarin-Chinese-Phonology.svg" style="display: block;"><img src="media/Mandarin-Chinese-Phonology.svg" alt="Mandarin Chinese Phonology" style="display: block; width: 100%; margin-bottom: -9.5%;"></a>
+  <figcaption style="padding: 0; text-align: center;"><small>点击图片后可以使用滚轮放大查看 · Click the image to zoom in with the scroll wheel</small></figcaption>
+</figure>
 
 <iframe src="media/Mandarin-Chinese-Phonology.pdf" title="普通话音系表 PDF" width="100%" height="600"></iframe>
 
